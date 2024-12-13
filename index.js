@@ -8,7 +8,6 @@ document.getElementById("addTaskButton").addEventListener("click", function () {
     }
 });
 
-// Listen for "Enter" key press
 document.getElementById("taskInput").addEventListener("keydown", function (event) {
     if (event.key === "Enter") {
         const taskText = event.target.value.trim();
