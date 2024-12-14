@@ -165,9 +165,7 @@ a {
     .footer {
         display: flex;
         justify-content: center;
-        position: relative;
-        margin-right: 60px;
-        
+        position: static;
     }
 
 }
